@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Características</title>
+    <script>
+        function exibirMensagem() {
+            var genero = document.getElementById("genero").value;
+
+            switch (genero) {
+                case "M":
+                    alert("Seja bem-vindo!");
+                    break;
+                case "F":
+                    alert("Seja bem-vinda!");
+                    break;
+                default:
+                    alert("Opção inválida!");
+                    break;
+            }
+        }
+
+        window.onload = function () {
+            var disciplinas = [
+                "Fundamentos de Programação Para Internet",
+                "Arquitetura e Organização de Computadores",
+                "Extensão",
+                "Linguagem e Interação",
+                "Legislação Aplicada a Tecnologia da Informação",
+                "Economia e Sociedade"
+            ];
+
+            var disciplinaoutput = "";
+            for (var i = 0; i < disciplinas.length; i++) {
+                disciplinaoutput += "<li>" + disciplinas[i] + "</li>";
+            }
+
+            document.getElementById("disciplinas-list").innerHTML = disciplinaoutput;
+
+            var tabuadaOutput = "<h2>Tabuada do 8</h2><ul>";
+            var numero = 8;
+
+            for (var j = 1; j <= 10; j++) {
+                var resultado = numero * j;
+                tabuadaOutput += "<li>" + numero + " x " + j + " = " + resultado + "</li>";
+            }
+
+            document.getElementById("tabuada-list").innerHTML = tabuadaOutput;
+
+            class Carro {
+                constructor(marca, modelo, ano, cor, potencia) {
+                    this.marca = marca;
+                    this.modelo = modelo;
+                    this.ano = ano;
+                    this.cor = cor;
+                    this.potencia = potencia;
+                }
+            }
+
+            var meuCarro = new Carro("Volkswagen", "Golf", 2021, "Preto", 150);
+
+            var output = "<h2>Características do Carro</h2><ul>";
+            for (var prop in meuCarro) {
+                if (meuCarro.hasOwnProperty(prop)) {
+                    output += "<li><strong>" + prop + ":</strong> " + meuCarro[prop] + "</li>";
+                }
+            }
+            output += "</ul>";
+
+            document.getElementById("caracteristicas").innerHTML = output;
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Saudação por Gênero</h1>
+    <form onsubmit="exibirMensagem(); return false;">
+        <label for="genero">Digite 'M' se for do sexo masculino ou 'F' se for do sexo feminino:</label>
+        <input type="text" id="genero" name="genero" maxlength="1" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h2>Disciplinas do Semestre</h2>
+    <ul id="disciplinas-list"></ul>
+
+    <div id="tabuada-list"></div>
+
+    <div id="caracteristicas"></div>
+</body>
+
+</html>
