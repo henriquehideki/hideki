@@ -1,1 +1,146 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <style>
+        table, tr, td, th {
+            border: 1px black solid;
+        }
+    </style>
+</head>-
+<h1></h1>
+<body> 
+
+    <ul>
+        <li>Àgua</li>
+        <li>Café</li>
+        <li>Chá</li>
+        <li>Suco</li>
+    </ul>
+
+    <ol>
+         <li>Pizza</li>
+         <li>Churrasco</li>
+         <li>Macaxeira</li>
+         <li>Macarronada</li>
+    </ol>
+<!--Acima criei uma tabela não ordenada com a tag "ul" e outra tabela ordenada com a tag "ol"-->>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Curso</th>
+            <th>Telefone</th>
+        </tr>
+
+        <tr>
+            <td>Hideki</td>
+            <td> - ADS</td>
+            <td>(44)99763-9873</td>
+        </tr>
+
+        <tr>
+            <td>Bira</td>
+            <td>Farmácia</td>
+            <td>(44)99867-7767</td>
+        </tr>
+    </table>
+<!--Acima criei uma tabela normal-->
+    <br>
+
+    <table>
+        <tr>
+            <th>Matéria</th>
+            <th colspan="2">Aulas</th>
+        </tr>
+        <tr>
+            <td>Linguagem</td>
+            <td>Programação</td>
+            <td>Legislação</td>
+        </tr>
+        <tr>
+            <td>Nota 7</td>
+            <td>Nota 10</td>
+            <td>Nota 10</td>
+        </tr>
+    </table>
+<!--Acima uma tabela diferente com a tag "Colspan"-->
+<br>
+
+    <table>
+        <tr>
+            <th>Análise e Desenvolvimento de Sistemas</th>
+            <td>Nota Geral:</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Ótimo</th>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Excelente!</td>
+        </tr>
+    </table>
+<!--Acima outra tabela escrita com a tag "rowspan"-->
+<br>
+
+<form>
+    <fieldset>
+        <legend>Dados Pessoais: </legend>
+        <strong>Aluno: </strong><br>
+        <input type="text" name="Aluno: "><br>
+
+        <strong>Idade: </strong><br>
+        <input type="text" name="Idade: "><br>
+
+        <strong>Nascimento</strong><br>
+        <input type="datetime-local"><br>
+
+        <strong>Email</strong>  <br> 
+        <input type="email">   <br>
+        <input type="reset" value="limpar">
+        <input type="submit">
+    </fieldset>
+</form>
+<!--Acima um formulário com a tag "text"-->
+<br>
+
+<form> Escolha um Número Aleatório: <br>
+    <input type="radio" name="númeroFavorito" value="83">83<br>
+    <input type="radio" name="númeroFavorito" value="41">41<br>
+    <input type="radio" name="númeroFavorito" value="37" checked>37<br>
+</form>
+<!--A cima um Formulário com a tag "radio"-->
+<br>
+
+<form action="enviar.py">
+    
+            <strong>Qual a sua Cidade?</strong><br>
+            <select name="Cidades">
+                <option value="Cianorte" selected>Cianorte</option>
+                <option value="Curitiba">curitiba</option>
+                <option value="Umuarama">Umuarama</option>
+                <option value="Paranavaí">Paranavaí</option>
+                </select><br>
+
+</form>
+<br>
+
+<form action="enviar.py">
+    Qual seu estilo de musica favorito?<br>
+    <input type="checkbox" name="estilo" value="rock"> Rock <br>
+    <input type="checkbox" name="estilo" value="sertanejo"> sertanejo<br>
+    <input type="checkbox" name="estilo" value="rap"> rap <br>
+
+</form>
+<br>
+
+<form action="enviar.py">
+    <textarea name="escreva"cols="30" rows="10">Escreva a sua opinião</textarea><br>
+    <input type="submit" value="enviar">
+</form>
+
+</body>
+</html>
