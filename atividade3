@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIA LÁCTEA</title>
+    <link rel="icon" type="png" href="https://s2.static.brasilescola.uol.com.br/be/2022/05/via-lactea.jpg">
+    <link rel="stylesheet" type="text/css" href="CSS.VIALACTEA.txt">
+
+    <style>
+
+body{
+    background-image: url(https://i.pinimg.com/originals/21/7c/dc/217cdc9baea459bbf2c9238d52a6b86e.jpg);
+}
+
+        h1 {
+        color: rgb(240, 18, 18);
+        margin-left: 0px;
+        }
+
+        m1 {
+            color: rgb(36, 230, 46);
+            margin-left: 0%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="center" style="color:hsla(239, 81%, 49%, 0.651); margin-left:30px;">VIA LÁCTEA</h1>
+
+    <p class="center" style="color:rgb(34, 177, 177);">A Via Láctea é a galáxia de formato espiral em que o Sistema Solar está localizado. Ela é composta principalmente por estrelas, poeiras e gases.
+        A Via Láctea, galáxia de formato espiral em que se localiza o Sistema Solar e, consequentemente, o planeta Terra, é composta por cerca de 200 milhões de estrelas, que se encontram separadas entre si por milhares de quilômetros (dez anos-luz);
+        grãos de poeira, compostos principalmente por um núcleo de metais pesados (grafite, silicatos de alumínio, ferro e magnésio) envolvidos por uma camada de gelo; e gases, constituídos principalmente por moléculas de hidrogênio.</p>
+
+    <!-- (class="center") usado para centralizar as letras na tela-->
+
+    <h1 class="center" style="color:hsla(239, 79%, 48%, 0.658); margin-left: 30px;">6 CURIOSIDADES SOBRE A VIA LÁCTEA</h1>
+
+    <p class="center" style="color:rgba(184, 62, 221, 0.658);">1 - A Via Láctea está empenhada em formato de "S"
+        2 - Ela tem quase 2 milhões de anos-luz de diâmetro
+        3 - São mais de 200 bilhões de estrelas, mas vemos poucas
+        4 - Nossa galáxia é parte do Superaglomerado de Laniakea
+        5 - A Via Láctea tem poeira e gás para formar bilhões de estrelas
+        6 - Há uma forte atração gravitacional</p>
+
+    <!--hsla(239, 79%, 48%, 0.658) ultíma coluna é usado para controlar a opacidade da letra -->
+
+    <h1>QUAL É A MAIOR COISA DA VIA LÁCTEA</h1>
+
+    <m1>A Grande Nuvem de Magalhães e a Pequena Nuvem de Magalhães são as maiores dentre as galáxias satélite da Via Láctea.
+         Ambas são visíveis a olho nu no hemisfério sul celeste como manchas brilhantes, sendo que a Grande Nuvem de Magalhães é a galáxia mais brilhante vista da Terra depois da própria Via Láctea.
+         Ambas são estruturas irregulares e apresentam regiões de intensa formação estelar. Uma corrente de gases existe ligando as nuvens de Magalhães entre si e também com a Via Láctea, sendo sugerido que teria origem na interação gravitacional entre as galáxias.</m1>
+
+    <!-- (m1) é a características que dei o valor de mudar a fonte e a cor da letra. -->
+
+
+</body>
+</html>VIA LÁCTEA - fundo.jpg
